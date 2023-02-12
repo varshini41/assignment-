@@ -1,0 +1,73 @@
+.image{
+	text-align: left;
+}
+.textimg{
+	position: absolute;
+	text-align: center;
+	color: white;
+	top: 100px;
+	left: 37%;
+	font-size: 20px;
+	font-family: courier;
+}
+.topnav{
+  background-color: #333;
+}
+
+.topnav a{
+  color: #f2f2f2;
+  text-decoration: none;
+  font-size: 26px;
+  text-align: center;
+  padding: 14px 16px;
+  margin: 10px;
+}
+
+.topnav input{
+  border-radius: 5px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active{
+  background-color: #04AA6D;
+  color: white;
+  border-radius: 8px;
+}
+.pfp{
+	width: 200px;
+	float: left;
+	margin: 5px;
+}
+table,th,td{
+	border: 1px solid black;
+}
+table tr:nth-child(odd)
+{
+	background-color: #bfbfbf;
+}
+label{
+	margin-bottom: 25px;
+	font-family: Consolas;
+}
+input{
+	margin-bottom: 15px;
+}
+#send{
+	background-color: lightgreen;
+	border-radius: 8px;
+	padding: 2px;
+	width: 50px;
+	position: relative;
+	left: 120px;
+}
+th,td{
+    font-family: 'Roboto Mono', monospace;
+    font-size: 20px;
+}
+.checked {
+  color: orange;
+}
